@@ -304,6 +304,8 @@ class HomePageState extends State<HomePage> {
             return false;
           }
           return true;
+          
+          
         },
         child: Scaffold(
             backgroundColor: Styles.primaryBackgroundColor,

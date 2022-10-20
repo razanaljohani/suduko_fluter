@@ -10,7 +10,6 @@ import 'package:sudoku_solver_generator/sudoku_solver_generator.dart';
 
 import 'alerts/all.dart';
 import 'board_style.dart';
-import 'splash_screen_page.dart';
 import 'styles.dart';
 
 void main() {
@@ -32,7 +31,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Styles.primaryColor,
       ),
-      home: const SplashScreenPage(),
+      home: HomePage()
+      ,
     );
   }
 }
